@@ -1,110 +1,102 @@
-Plan de estudios para aprender CSS 
+Semana 1: Fundamentos de CSS
+Objetivo: Comprender como se aplica CSS al HTML y dominar las bases de la sintaxis.
 
-🗓️ Semana 1: Fundamentos de CSS
-Objetivo: Comprender cómo se aplica CSS al HTML y dominar las bases de la sintaxis.
+    Dia 1: Introduccion a CSS  
+    Que es CSS y para que sirve?, Formas de aplicar CSS:  
 
-    📅 Día 1: Introducción a CSS
-    ¿Qué es CSS y para qué sirve?, Formas de aplicar CSS:
+        Inline (style="")  
 
-        Inline (style="")
+        Interno (<style>)  
 
-        Interno (<style>)
+        Externo (<link rel="stylesheet">)  
 
-        Externo (<link rel="stylesheet">)
+        Sintaxis basica: selector, propiedad y valor  
 
-        Sintaxis básica: selector, propiedad y valor
+    Dia 2-3: Selectores basicos  
 
-    📅 Día 2-3: Selectores básicos
-    
-        Selectores de etiquetas (p {})
+        Selectores de etiquetas (p {})  
 
-        Selectores por clase (.clase {})
+        Selectores por clase (.clase {})  
 
-        Selectores por ID (#id {})
+        Selectores por ID (#id {})  
 
-        Agrupación de selectores
+        Agrupacion de selectores  
 
-    📅 Día 4: Propiedades de texto
+    Dia 4: Propiedades de texto  
 
-        color, font-family, font-size
+        color, font-family, font-size  
 
-        text-align, line-height, font-weight, text-decoration
+        text-align, line-height, font-weight, text-decoration  
 
-    📅 Día 5: Colores y unidades
+    Dia 5: Colores y unidades  
 
-        Colores por nombre, hexadecimal, rgb(), hsl()
+        Colores por nombre, hexadecimal, rgb(), hsl()  
 
-        Unidades: px, %, em, rem, vh, vw
+        Unidades: px, %, em, rem, vh, vw  
 
+Semana 2: Estilizado de Cajas y Diseno
+Objetivo: Aprender el modelo de caja, margenes, rellenos y bordes.
 
-🗓️ Semana 2: Estilizado de Cajas y Diseño
-Objetivo: Aprender el modelo de caja, márgenes, rellenos y bordes.
+    Dia 1-2: Modelo de caja (Box Model)  
 
-    📅 Día 1-2: Modelo de caja (Box Model)
+        width, height  
 
-        width, height
+        margin, padding, border  
 
-        margin, padding, border
+        box-sizing: border-box  
 
-        box-sizing: border-box
+    Dia 3: Bordes y fondos  
 
-    📅 Día 3: Bordes y fondos
+        border-style, border-radius, border-color  
 
-        border-style, border-radius, border-color
+        background-color, background-image, background-repeat, background-size  
 
-        background-color, background-image, background-repeat, background-size
+    Dia 4-5: Posicionamiento  
 
-    📅 Día 4-5: Posicionamiento
+        Tipos de posicion: static, relative, absolute, fixed, sticky  
 
-        Tipos de posición: static, relative, absolute, fixed, sticky
+        Coordenadas: top, left, right, bottom  
 
-        Coordenadas: top, left, right, bottom
+        Z-index  
+Semana 3: Diseno Responsive y Layouts
+Objetivo: Aprender a estructurar sitios web con diseno adaptable.
 
-        Z-index
+    Dia 1-2: Display y Flexbox  
 
-🗓️ Semana 3: Diseño Responsive y Layouts
-Objetivo: Aprender a estructurar sitios web con diseño adaptable.
+        display: block, inline, inline-block, none  
 
-    📅 Día 1-2: Display y Flexbox
+        display: flex  
 
-        display: block, inline, inline-block, none
+        justify-content, align-items, flex-direction, gap  
 
-        display: flex
+    Dia 3-4: Grid Layout  
 
-        justify-content, align-items, flex-direction, gap
+        display: grid, grid-template-columns, grid-template-rows  
 
-    📅 Día 3-4: Grid Layout
+        grid-gap, grid-area, alineacion en grillas  
 
-        display: grid, grid-template-columns, grid-template-rows
+    Dia 5: Media Queries  
 
-        grid-gap, grid-area, alineación en grillas
+        Que es el diseno responsive  
 
-    📅 Día 5: Media Queries
-
-        Qué es el diseño responsive
-
-        @media y puntos de quiebre comunes (max-width: 768px, etc.)
-
-
-🗓️ Semana 4: Animaciones, Pseudoclases y Proyecto Final
+        @media y puntos de quiebre comunes (max-width: 768px, etc.)  
+Semana 4: Animaciones, Pseudoclases y Proyecto Final
 Objetivo: Aprender a aplicar interactividad visual y mejorar la experiencia del usuario.
 
-    📅 Día 1: Pseudoclases y pseudoelementos
+    Dia 1: Pseudoclases y pseudoelementos  
 
-        :hover, :active, :focus, :nth-child()
+        :hover, :active, :focus, :nth-child()  
 
-        ::before, ::after
+        ::before, ::after  
 
-    📅 Día 2-3: Transiciones y animaciones
+    Dia 2-3: Transiciones y animaciones  
 
-        transition: propiedades, duración, ease, linear
+        transition: propiedades, duracion, ease, linear  
 
-        @keyframes, animation-name, animation-duration
+        @keyframes, animation-name, animation-duration  
 
-    📅 Día 4: Variables y organización
+    Dia 4: Variables y organizacion  
 
-        Variables CSS con --nombre-variable
+        Variables CSS con --nombre-variable  
 
-        Uso de :root, buenas prácticas para mantener orden
-
-    
+        Uso de :root, buenas practicas para mantener orden

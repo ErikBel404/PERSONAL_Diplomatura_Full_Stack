@@ -1,86 +1,84 @@
-Plan de estudios para aprender HTML
+Semana 1: Fundamentos de HTML
+Objetivo: Comprender la estructura basica de HTML y los elementos esenciales.
 
-🗓️ Semana 1: Fundamentos de HTML
-Objetivo: Comprender la estructura básica de HTML y los elementos esenciales.
+    Dia 1: Introduccion a HTML  
 
-    📅 Día 1: Introducción a HTML
+        Que es HTML?  
 
-        ¿Qué es HTML?
+        Estructura basica de un documento (<!DOCTYPE html>, <html>, <head>, <body>)  
 
-        Estructura básica de un documento (<!DOCTYPE html>, <html>, <head>, <body>)
+    Dia 2-3: Elementos de texto  
 
-    📅 Día 2-3: Elementos de texto
+        Encabezados (<h1> a <h6>)  
 
-        Encabezados (<h1> a <h6>)
+        Parrafos (<p>), saltos de linea (<br>), lineas horizontales (<hr>)  
 
-        Párrafos (<p>), saltos de línea (<br>), líneas horizontales (<hr>)
+        Comentarios (<!-- -->)  
 
-        Comentarios (<!-- -->)
+    Dia 4: Formato de texto  
 
-    📅 Día 4: Formato de texto
+        Etiquetas de estilo: <b>, <i>, <u>  
 
-        Etiquetas de estilo: <b>, <i>, <u>
+        Etiquetas semanticas: <strong>, <em>, <mark>, <blockquote>  
 
-        Etiquetas semánticas: <strong>, <em>, <mark>, <blockquote>
+    Dia 5: Introduccion a <div>  
 
-    📅 Día 5: Introducción a <div>
+        Que es un <div>? Contenedor generico  
 
-        ¿Qué es un <div>? Contenedor genérico
+        Agrupar elementos visualmente: ejemplo de <div> con un titulo, un parrafo y una imagen  
 
-        Agrupar elementos visualmente: ejemplo de <div> con un título, un párrafo y una imagen
+        Relacion con CSS: aplicar clases e IDs  
 
-        Relación con CSS: aplicar clases e IDs
+    Dia 6-7: Enlaces e imagenes  
 
-    📅 Día 6-7: Enlaces e imágenes
+        <a href="">: enlaces internos y externos, atributos target, rel  
 
-        <a href="">: enlaces internos y externos, atributos target, rel
+        <img src="" alt="">: atributos width, height, buenas practicas  
 
-        <img src="" alt="">: atributos width, height, buenas prácticas
+Semana 2: Listas, Tablas y Formularios
 
-🗓️ Semana 2: Listas, Tablas y Formularios
+    Dia 1-2: Listas  
 
-    📅 Día 1-2: Listas
+        Listas ordenadas (<ol>) y desordenadas (<ul>)  
 
-        Listas ordenadas (<ol>) y desordenadas (<ul>)
+        Listas anidadas con <li>  
 
-        Listas anidadas con <li>
+    Dia 3-4: Tablas  
 
-    📅 Día 3-4: Tablas
+        <table>, <tr>, <td>, <th>  
 
-        <table>, <tr>, <td>, <th>
+        Atributos: colspan, rowspan, uso semantico y estructural  
 
-        Atributos: colspan, rowspan, uso semántico y estructural
+    Dia 5-7: Formularios  
 
-    📅 Día 5-7: Formularios
+        <form>, <input>, <label>  
 
-        <form>, <input>, <label>
-
-        Tipos de input: text, password, email, checkbox, radio, submit
+        Tipos de input: text, password, email, checkbox, radio, submit  
 
         Otros elementos: <select>, <option>, <textarea>
 
-🗓️ Semana 3: Estructura de la Página y Semántica
+Semana 3: Estructura de la Pagina y Semantica
 
-    📅 Día 1-2: Contenedores y estructura
+    Dia 1-2: Contenedores y estructura  
 
-        Uso práctico de <div> para estructurar secciones: encabezado, contenido, pie de página
+        Uso practico de <div> para estructurar secciones: encabezado, contenido, pie de pagina  
 
-        Clases e IDs para diferenciar <div>
+        Clases e IDs para diferenciar <div>  
 
-        Comparación: <div> vs etiquetas semánticas (<section>, <article>, <header>, etc.)
+        Comparacion: <div> vs etiquetas semanticas (<section>, <article>, <header>, etc.)  
 
-        Jerarquía visual y anidamiento de contenedores
+        Jerarquia visual y anidamiento de contenedores  
 
-    📅 Día 3-4: HTML semántico
-    
-        Estructura semántica moderna: <header>, <nav>, <main>, <section>, <article>, <aside>, <footer>
+    Dia 3-4: HTML semantico  
 
-        Mejoras para SEO y accesibilidad
+        Estructura semantica moderna: <header>, <nav>, <main>, <section>, <article>, <aside>, <footer>  
 
-    📅 Día 5-6: Multimedia
+        Mejoras para SEO y accesibilidad  
 
-        Insertar audio (<audio controls>)
+    Dia 5-6: Multimedia  
 
-        Insertar video (<video controls>)
+        Insertar audio (<audio controls>)  
+
+        Insertar video (<video controls>)  
 
         Atributos: autoplay, loop, muted, poster

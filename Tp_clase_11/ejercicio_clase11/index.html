@@ -6,28 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 11 - Intro CSS</title>
     <!-- Aquí enlace con la hoja de estilos --> 
+     <link rel="stylesheet" href="./css/styles.css">
     <!-- Veáse el video de la clase 11 en 0:30:09   --> 
 </head>
 
 <!-- CONSIGNA: Solo tenga en cuenta los comentarios -->
 <body>
-    <header>
+    <header class="hf-padding">
         <h2>COMUNICATION<span>BLOG</span></h2>
         <h1>Elementos de la Comunicación</h1>
     </header>
 
-    <main> <!-- Esta etiqueta contiene a la MAYORÍA de los elementos de la página-->
-        <p>
+    <main class="main-contenedor"> <!-- Esta etiqueta contiene a la MAYORÍA de los elementos de la página-->
+        <p class="normal">
             Los elementos de la comunicación son todos los factores que intervienen en el proceso de envío y recepción de un mensaje.
         </p>
         
         <!-- Este párrafo es para destacar -->
-        <p>
+        <p class="p-destacado">
             Cada uno de estos elementos del proceso comunicativo aporta un valor que, dependiendo de la circunstancia, ayuda a mejorar o a distorsionar la comunicación.
         </p>
         
         <figure>
-            <img src="img/comunication.jpg" alt="Elementos de la comunicación" width="100%">
+            <img src="img/comunication.jpg" alt="Elementos de la comunicación" width="100%" class="imagen">
             <figcaption>
                 <span>Imagen01:</span> Mapa conceptual de los elementos de la comunicación
             </figcaption>
@@ -35,38 +36,38 @@
 
         <h2>Emisor</h2>
         
-        <p>
-            El emisor es el punto de partida del proceso de comunicación, <span>es quien emite el mensaje</span>. Para que la comunicación sea efectiva, el emisor tiene que utilizar los mismos canales y códigos comunicacionales que el receptor; de lo contrario, el proceso no culminará exitosamente.
-        </p>
+        <p class="normal">
+            El emisor es el punto de partida del proceso de comunicación, <span class="emisor">es quien emite el mensaje</span>. Para que la comunicación sea efectiva, el emisor tiene que utilizar los mismos canales y códigos comunicacionales que el receptor; de lo contrario, el proceso no culminará exitosamente.
+        </p >
 
-        <p>
+        <p class="normal">
             Aunque se entiende que el emisor es quien tiene la intención de comunicar algo, se trata de un rol flexible.
-        </p>
+        </p >
 
-        <p>
-            Emisor y receptor <span>pueden intercambiar sus papeles </span>de forma que el emisor se convierte en receptor cuando recibe la respuesta al mensaje.
+        <p class="normal">
+            Emisor y receptor <span class="emisor">pueden intercambiar sus papeles </span>de forma que el emisor se convierte en receptor cuando recibe la respuesta al mensaje.
         </p>
         
          <!--Agregue este estilo en línea al elemento <span> que contiene al texto "Vea también:"--> 
             <!-- font-style: italic; font-weight: 600; -->
             <!-- Veáse el video de la clase 11 en 0:24:34   -->
-        <p>
-            <span>Vea también: </span><a href="#">Emisor</a> y <a href="#">Comunicación efectiva</a>.
+        <p class="normal">
+            <span style="font-style: italic; font-weight: 600;">Vea también: </span><a href="#">Emisor</a> y <a href="#">Comunicación efectiva</a>.
         </p>
 
         <h2 >Receptor</h2>
         
-        <p>
-            El receptor es quien <span>recibe el mensaje del emisor</span>. Su sol puede ser voluntario o involuntario, ya que puede estar participando activamente en el proceso comunicativo, o ser un actor incidental, por escuchar una conversación de otras personas o recibir un mensaje que no era para él.
+        <p class="normal">
+            El receptor es quien <span class="receptor">recibe el mensaje del emisor</span>. Su sol puede ser voluntario o involuntario, ya que puede estar participando activamente en el proceso comunicativo, o ser un actor incidental, por escuchar una conversación de otras personas o recibir un mensaje que no era para él.
         </p>
 
-        <p>
-            En ese sentido, el receptor puede recibir el mensaje y no responder. Pero si lo responde, <span>deja de ser receptor para convertirse en emisor,</span> ya que su rol ahora implica enviar un mensaje. Una vez más, emisor y
+        <p class="normal">
+            En ese sentido, el receptor puede recibir el mensaje y no responder. Pero si lo responde, <span class="receptor">deja de ser receptor para convertirse en emisor,</span> ya que su rol ahora implica enviar un mensaje. Una vez más, emisor y
             receptor intercambian sus papeles.
         </p>
         
         <!-- Asigne la clase correspondiente  -->
-        <h3 >Ejemplos de receptor serían:</h3> <!-- Es muy IMPORTANTE que el color del texto de la etiqueta H3 se vea white (blanco)  -->
+        <h3 class="importante">Ejemplos de receptor serían:</h3> <!-- Es muy IMPORTANTE que el color del texto de la etiqueta H3 se vea white (blanco)  -->
         <ul>
             <li>Quien recibe la llamada y escucha el mensaje del emisor.</li>
             <li>La persona que recibe el correo electrónico.</li>
@@ -74,13 +75,13 @@
         </ul>
         <!--Agregue este estilo en línea al elemento <span> que contiene al texto "Vea también:"--> 
             <!-- font-style: italic; font-weight: 600; -->
-        <p>
-            <span>Vea también: </span><a href="#">Receptor</a> y <a href="#">Comunicación oral </a> 
+        <p class="normal">
+            <span style="font-style: italic; font-weight: 600;">Vea también: </span><a href="#">Receptor</a> y <a href="#">Comunicación oral </a> 
         </p>
     
     </main>
 
-    <footer>
+    <footer class="hf-padding">
         <h2>COMUNICATION<span>BLOG</span></h2>
         <p>
             <a href="#">Mensajes</a> &#10072; 
@@ -92,3 +93,5 @@
 </body>
 
 </html>
+
+

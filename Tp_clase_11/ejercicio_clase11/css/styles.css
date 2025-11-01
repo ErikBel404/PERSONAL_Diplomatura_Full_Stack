@@ -8,7 +8,7 @@
 ***************************************************************************************
 
 AGREGUE el selector correspondiente para todos los elementos del CUERPO de la pagina */
-{
+body {
     margin: 0;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size:16px;
@@ -16,7 +16,7 @@ AGREGUE el selector correspondiente para todos los elementos del CUERPO de la pa
 }
 
 /* AGREGUE el selector correspondiente para todos los párrafos del documento */
-{
+p {
     color: #5f5f5f;
 }
 
@@ -28,7 +28,7 @@ AGREGUE el selector correspondiente para todos los elementos del CUERPO de la pa
 
 /*AGREGUE los selectores múltiples correspondientes para el encabezado y pie de la página */
 /*Veáse el video de la clase 11 en 1:13:56  (selectores múltiples) */
-{
+header, footer{
     color:white;
     background:linear-gradient(to bottom, #08223b, #1e90ff);
     text-align: center;
@@ -39,7 +39,7 @@ AGREGUE el selector correspondiente para todos los elementos del CUERPO de la pa
 }
 
 /*AGREGUE el selector correspondiente al título de nivel 1 */
-{
+h1 {
     margin: 0;
     font-weight: 600;
 }
@@ -68,7 +68,7 @@ AGREGUE el selector correspondiente para todos los elementos del CUERPO de la pa
 }
 
 /* AGREGUE el selector correspondiente para el elemento que continene a la imagen*/
-{
+figure {
     text-align: center;
     margin-bottom: 3em;
 }
@@ -81,20 +81,20 @@ AGREGUE el selector correspondiente para todos los elementos del CUERPO de la pa
 }
 
 /* AGREGUE el selector correspondiente para la etiqueta que hace de epígrage del texto que está justo por debajo de la imagen*/
-{
+figure figcaption{
     text-align: center;
     font-size: small;
     padding: 5px;
 }
 
 /* AGREGUE el selector correspondiente a la etiqueta span que se encuentra dentro de la etiqueta figcaption */
-{
+figure figcaption span{
     font-weight: 600;
     color: #02519b;
 }
 
 /* AGREGUE el selector correspondiente para todos los títulos de nivel 3  */
-{
+h3 {
     background-color: #02519b;
     padding: 0.2em;
     width: 50%;
@@ -104,7 +104,7 @@ AGREGUE el selector correspondiente para todos los elementos del CUERPO de la pa
  
 /* AGREGUE el selector descendente correspondiente para que esta clase afecte solamente a los títulos de nivel 2 que se encuentren dentro del contenedor MAIN */
 /* Veáse el video de la clase 11 en 1:17:08 (selectores descendentes) */
-{
+ main h2{
     width: 40%;
     color: white;
     font-weight: 400;
@@ -114,7 +114,7 @@ AGREGUE el selector correspondiente para todos los elementos del CUERPO de la pa
 }
 
 /* AGREGUE el selector correspondiente para todos los enlaces de la pagina  que se encuentren dentro de los párrafo que contengan la clase normal, de modo que los hipervínculos se vean de este color*/
-{
+p.normal a{
     color:#1e90ff;
 }
 
@@ -133,12 +133,12 @@ AGREGUE el selector correspondiente para todos los elementos del CUERPO de la pa
 }  
 
 /* AGREGUE el selector correspondiente para todos los títulos de nivel 3  */
-{
+h3 {
     color: rgb(9, 0, 0); 
 }
 
 /* AGREGUE el selector correspondiente para todos los elementos DENTRO del contenedor UL */
-{
+ul {
     font-size:1.2em;
     line-height: 1.5em;
     color: #916609;
@@ -149,24 +149,24 @@ AGREGUE el selector correspondiente para todos los elementos del CUERPO de la pa
 }
 
 /*AGREGUE los selectores descendentes correspondientes para que esta clase impacte solo a los títulos de nivel 2 tanto para el encabezado como para el pie de la página */   
-{
+header h2, footer h2{
     text-align: left;
     margin: 10px 0;
 }
 
 /*AGREGUE los selectores descendentes correspondientes para que esta clase impacte solo a las etiquetas SPAN tanto para el encabezado como para el pie de la página */  
-{
+header span, footer span{
     color:rgb(250, 210, 10);
 }
 
 /* AGREGUE el selector descendente correspondiente para TODOS los párrafos que se encuentren en el contenedor FOOTER */
-{
+footer p{
     color:white;
     font-size: 1.5em;
 }
 
 /* AGREGUE el selector descendente correspondiente para TODOS los enlaces que se encuentren en el contenedor FOOTER */
-{
+footer a{
     color:cyan;
     font-size:.8em;
 }

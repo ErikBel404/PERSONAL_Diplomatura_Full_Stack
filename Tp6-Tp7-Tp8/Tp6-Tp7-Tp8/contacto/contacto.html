@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paris 2024 - Contacto</title>
+    <link rel="short icon" href="../img/olimpiada-olympic-games-logo-0.png">
+
+    <style>
+        body{
+            font-family: sans-serif;
+            margin: 0px;
+            color: #3f3f3f;
+        }
+
+        header{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background: #000000;
+            text-align: center;
+            color: #ffffff;
+            padding: 15px; 
+        }
+
+        span{
+            color:#FF0000;
+        }
+
+        nav{
+            background: #0563a7;
+            padding: 5px;
+            text-align:center;
+        }
+
+        a{
+            color: #ffffff;
+            padding: 15px;
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: underline; 
+            color: #00d9ff;
+        }
+
+        main{
+            background: #ebe8e8;
+            padding: 15px;
+        }
+
+        article{
+            background: #ffffff;
+            padding: 15px;
+            margin-bottom: 10px;
+        }
+
+        figure{
+            text-align: center;
+        }
+
+        figcaption{
+            background-color: #164a9e;
+            color: #ffffff;
+        }
+
+        footer{
+            background: #000000;
+            padding: 30px;
+            text-align: center;
+            color: #ffffff;
+        }
+
+
+        /*Css de el form*/
+
+        form{
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #0563a7;
+            border: transparent;
+            color: white;
+            padding: 15px;
+            border: 1px solid gray;
+            border-radius: 8px;
+            width: 80%;
+        }
+
+        input, textarea{
+            background-color: #052C3D;
+            color: #00d9ff;
+            width: 100%;
+            padding: 6px;
+            border-radius: 5px;
+            border: 1px solid transparent;
+            box-sizing: border-box;
+        }
+        
+        input[type="radio"]{
+            width: inherit;
+            accent-color: #00d9ff;
+        }
+
+        input::placeholder, textarea::placeholder{
+            color: #00d9ff;
+        }
+
+        input:focus{
+            border: 1px solid white;
+        }
+
+        button[type="submit"]{
+            background-color: #4CB050;
+            width: 90px;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            color: white;
+        }
+
+        button[type="reset"]{
+            background-color: #D82C27;
+            width: 90px;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            color: white;
+        }
+
+        textarea{
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sport<span>Today</span></h1>
+        <p>Suplemento especial <span>París 2024</span></p>
+
+            <img src="https://static.sportytrader.com/content/new/1-MX-TIPSTERS/picto-paris-2024.webp" alt="Logo JJOO Paris 2024">
+	</header>
+	
+	<nav>
+        <a href="../index.html">Home</a>
+        <a href="../info/infografia.html">Infografía</a>
+        <a href="../delegacion/delegacion-argentina.html">Argentina</a>
+        <a href="../medallas/medallero.html">Medallero</a> 
+        <a href="../contacto/contacto.html">Contacto</a>
+    </nav>
+	
+	<main>
+	     <article>
+            <h2>Contacto y sugerencias</h2>
+            <p>
+                ¿Querés comentarnos algo para mejorar nuestro sitio web? Todo lo que nos 
+                sugieras, nos ayudará a trabajar con más ímpetu para ofrecerte una web cada vez 
+                mejor
+            </p>
+            
+            <h2>Llená nuestro formulario de contacto</h2>
+
+                <form action="recibido.html" method="get">
+                    <p>
+                        <label for="nombreCompleto">Nombre Completo: <br>
+                            <input type="text" name="nombreCompleto" id="nombreCompleto" required placeholder="Ingrese su nombre">
+                        </label>
+                    </p>
+
+                    <p>
+                        <label for="edad">Edad: <br>
+                            <input type="number" name="edad" id="edad" min="0" max="120" required placeholder="Ingrese su edad">
+                        </label>
+                    </p>
+
+                    <p>
+                        <label for="genero">Genero: <br>
+                            <input type="radio" name="genero" id="generoHombre" checked> Hombre
+                            <input type="radio" name="genero" id="generoMujer"> Mujer
+                        </label>    
+                    </p>
+
+                    <p>
+                        <label for="sugerencia">Sugerencia / Comentario: <br>
+                            <textarea name="sugerencia" id="sugerencia" rows="8" required maxlength="450" placeholder="Deje su comentario por favor, nos importa su opinion"></textarea>
+                        </label>
+                    </p>
+
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Borrar</button>
+                </form>
+	     </article>
+    </main>
+
+    <footer>
+        <h3>Sport<span>Today</span></h3>
+        <small>Suplemento especial <span>París 2024</span></small>
+
+        <div>
+            <h3>Seguinos</h3>
+            <a href="#"><img src="../img/icon_insta_black.png" alt="Logo Instragram" width="45px" height="45px"></a>
+            <a href="#"><img src="../img/icon_face_black.png" alt="Logo Facebook" width="45px" height="45px"></a>
+            <a href="#"><img src="../img/icon_x_black.png" alt="Logo X" width="45px" height="45px"></a>
+        </div>
+
+        <p>
+            &copy; 2024 - todos los derechos reservados
+        </p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,172 @@
+/*
+***************************************************************************************
+1- IMPORTANTE: NO AÑADA, QUITE O MODIFIQUE LAS REGLAS CSS AQUÍ DEFINIDAS
+***************************************************************************************
+2- ENLACE ESTE ARCHIVO AL DOCUMENTO HTML DEL EJERCICIO
+***************************************************************************************
+3- "AGREGUE" LOS SELECTORES QUE HACEN FALTA O "ASIGNE" LAS CLASES AL DOCUMENTO HTML
+***************************************************************************************
+
+AGREGUE el selector correspondiente para todos los elementos del CUERPO de la pagina */
+{
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:16px;
+    background-color: rgb(240, 240, 240);
+}
+
+/* AGREGUE el selector correspondiente para todos los párrafos del documento */
+{
+    color: #5f5f5f;
+}
+
+/* ASIGNE esta clase a la etiqueta que contiene a LA MAYORÍA de los elementos de la página*/
+.main-contenedor{
+    width:75%;
+    margin:0 auto;
+}
+
+/*AGREGUE los selectores múltiples correspondientes para el encabezado y pie de la página */
+/*Veáse el video de la clase 11 en 1:13:56  (selectores múltiples) */
+{
+    color:white;
+    background:linear-gradient(to bottom, #08223b, #1e90ff);
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+    height:80px;
+    margin-bottom:10px;
+}
+
+/*AGREGUE el selector correspondiente al título de nivel 1 */
+{
+    margin: 0;
+    font-weight: 600;
+}
+
+/*ASIGNE esta clase al encabezado y al pie de la página*/
+.hf-padding
+    {
+        padding:45px 20px;
+    }
+
+/* ASIGNE esta clase al párrafo que debe ser destacado */
+.p-destacado{
+    text-align:center;
+    font-size:1.2em;
+    font-weight: 600;
+    line-height: 1.5em;
+    color:#02519b;
+}
+
+/* ASIGNE esta clase a todos los párrafos que no tienen asignada una clase, salvo los párrafos que se encuentran bajo el contenedor footer */
+.normal{
+    text-align: justify;
+    font-size:1.2em;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+
+/* AGREGUE el selector correspondiente para el elemento que continene a la imagen*/
+{
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+/* ASIGNE esta clase a la única imagen del documento */
+.imagen{
+    border-width: 5px;
+    border-style:outset;
+    border-color:  #02519b;
+}
+
+/* AGREGUE el selector correspondiente para la etiqueta que hace de epígrage del texto que está justo por debajo de la imagen*/
+{
+    text-align: center;
+    font-size: small;
+    padding: 5px;
+}
+
+/* AGREGUE el selector correspondiente a la etiqueta span que se encuentra dentro de la etiqueta figcaption */
+{
+    font-weight: 600;
+    color: #02519b;
+}
+
+/* AGREGUE el selector correspondiente para todos los títulos de nivel 3  */
+{
+    background-color: #02519b;
+    padding: 0.2em;
+    width: 50%;
+    color: white;
+    margin-bottom:0;
+}
+ 
+/* AGREGUE el selector descendente correspondiente para que esta clase afecte solamente a los títulos de nivel 2 que se encuentren dentro del contenedor MAIN */
+/* Veáse el video de la clase 11 en 1:17:08 (selectores descendentes) */
+{
+    width: 40%;
+    color: white;
+    font-weight: 400;
+    margin-top:2em;
+    padding:10px;
+    background: linear-gradient(45deg, #08223b, #1e90ff);
+}
+
+/* AGREGUE el selector correspondiente para todos los enlaces de la pagina  que se encuentren dentro de los párrafo que contengan la clase normal, de modo que los hipervínculos se vean de este color*/
+{
+    color:#1e90ff;
+}
+
+/* ASIGNE esta clase a todas las etiquetas <SPAN> que se encuentran en los párrafos bajo título "Emisor" */
+.emisor{ 
+    background: #FFCC99; 
+    border: 1px solid #a78545; 
+    padding: .1em; 
+}
+
+/* ASIGNE esta clase a todas las etiquetas <SPAN> que se encuentran en los párrafos bajo título "Receptor" */
+.receptor{
+    background: #c2eeb9; 
+    border: 1px solid #017013; 
+    padding: .1em
+}  
+
+/* AGREGUE el selector correspondiente para todos los títulos de nivel 3  */
+{
+    color: rgb(9, 0, 0); 
+}
+
+/* AGREGUE el selector correspondiente para todos los elementos DENTRO del contenedor UL */
+{
+    font-size:1.2em;
+    line-height: 1.5em;
+    color: #916609;
+}
+
+.importante{
+    color:white !important
+}
+
+/*AGREGUE los selectores descendentes correspondientes para que esta clase impacte solo a los títulos de nivel 2 tanto para el encabezado como para el pie de la página */   
+{
+    text-align: left;
+    margin: 10px 0;
+}
+
+/*AGREGUE los selectores descendentes correspondientes para que esta clase impacte solo a las etiquetas SPAN tanto para el encabezado como para el pie de la página */  
+{
+    color:rgb(250, 210, 10);
+}
+
+/* AGREGUE el selector descendente correspondiente para TODOS los párrafos que se encuentren en el contenedor FOOTER */
+{
+    color:white;
+    font-size: 1.5em;
+}
+
+/* AGREGUE el selector descendente correspondiente para TODOS los enlaces que se encuentren en el contenedor FOOTER */
+{
+    color:cyan;
+    font-size:.8em;
+}

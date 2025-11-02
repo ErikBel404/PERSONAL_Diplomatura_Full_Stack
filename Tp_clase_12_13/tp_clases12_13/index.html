@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS aplicado al texto</title>
+    <!-- Vincule aquí a la hoja de estilos ya definida -->
+     <link rel="stylesheet" href="./css/styles.css">
+</head>   
+<body>
+    <header>
+        <h1>CSS para textos</h1>
+        <p>Ejercicio práctico clases 12 y 13</p>
+    </header>
+    <!-- C O N S I G N A : 
+    ==================
+    Debe crear los estilos Css (en la hoja de estilos de la carpeta css), que ya están asignados a los distintos párrafos, teniendo en cuenta la descripción de los mismos (Leer bien todos las descripciones)-->
+        
+    <main>
+        <section>
+            <h2>Font-family  - Familia de fuente</h2>
+        </section>
+            
+            <article> <!-- Aplicando familias de fuente-->
+                <p class="cursiv"> Este es un párrafo con tipo de fuente cursive</p>
+                <p class="verdana"> Este es un párrafo con tipo de fuente verdana</p>
+                <p class="roboto">Este es un párrafo con tipo de fuente roboto traida de Google fonts</p>
+                <p class="fant"> Este es un párrafo con tipo de fuente fantasy</p>
+                <p class="times"> Este es un párrafo con tipo de fuente times new roman</p>
+                <p class="monos"> Este es un párrafo con tipo de fuente monospace</p>
+                <p class="JosefinSlab">Este es un párrafo con tipo de fuente Josefin Slab traida de Google fonts</p>
+            </article>
+            
+        <section>
+                <h2>Font-size - Tamaño de fuente</h2>
+        </section>
+
+            <article> <!-- Aplicando tamaño a las fuentes-->
+                <p class="peque">Párrafo con texto con tamaño de letra pequeño (small) </p>
+                <p class="medium">Párrafo con texto con tamaño de letra mediano (medium) </p>
+                <p class="grande">Párrafo con texto con tamaño de letra grande  (large)</p>
+                <p class="mas-grande">Párrafo con texto con tamaño de letra muy grande  (xxlarge)</p>
+                
+                <p class="och">Párrafo con texto tamaño de letra 8px</p>
+                <p class="diz">Párrafo con texto tamaño de letra 10px</p>
+                <p class="docho">Párrafo con texto tamaño de letra 18px</p>
+                <p class="vtr">Párrafo con texto tamaño de letra 24px</p>
+                <p class="trei">Párrafo con texto tamaño de letra 30px</p>
+
+                <p class="mitad">Párrafo con texto tamaño mitad del contenedor</p>
+                <p class="uno">Párrafo con texto tamaño del contenedor</p>
+                <p class="ymedio">Párrafo con texto tamaño 1 y medio del contenedor</p>
+                <p class="doble">Párrafo con texto tamaño doble del contenedor</p>
+                <p class="triple">Párrafo con texto tamaño triple del contenedor</p>
+            </article>
+        <section>
+            <h2>font-weight - grosor de fuente</h2>
+        </section>
+            <article>
+                <h3>Combine con los estilos ya creados</h3>
+                <p class="grosor-100 medium JosefinSlab" >Párrafo con grosor de fuente 100, tipo de fuente josefine slab y tamaño medium </p>
+                <p class="grosor-300 JosefinSlab ymedio" >Párrafo con grosor de fuente 300, tipo de fuente josefine slab y tamaño 1 y medio del contenedor </p>
+                <p class="grosor-600 JosefinSlab ymedio" >Párrafo con grosor de fuente 600, tipo de fuente josefine slab y tamaño 1 y medio del contenedor </p>
+                <p class="grosor-800 JosefinSlab vtr" >Párrafo con grosor de fuente 800, tipo de fuente josefine slab y tamaño 24px</p>
+            </article>
+
+            <section>
+                <h2>font-style - estilo de fuente</h2>
+            </section>
+                <article>
+                    <h3>Combine con los estilos ya creados</h3>
+                    <p class="italic grosor-100 roboto medium" >Párrafo con estilo italic, grosor de fuente 100, tipo de letra Roboto y tamaño medium </p>
+                    <p class="italic grosor-300 roboto ymedio" >Párrafo con estilo italic, grosor de fuente 300, tipo de letra Roboto y tamaño 1 y medio del contenedor </p>
+                    <p class="italic grosor-600 roboto mitad" >con estilo italic, grosor de fuente 600, tipo de fuente Roboto y tamaño medium del contenedor </p>
+                    <p class="italic grosor-800 roboto mas-grande" >Párrafo con estilo italic, grosor de fuente 800, tipo de fuente Roboto y tamaño xxlarge</p>
+                </article>
+                
+            <section>
+                <h2>font-variant - Variante de fuente</h2>
+            </section>
+                <article>
+                    <h3>Combine con los estilos ya creados</h3>
+                    <p class="var-normal times grande"> Texto con Variante Normal, Tipo de Fuente Times y Tamaño Large </p>
+                    <p class="var-smallcaps times grande"> Texto con  Variante Small Caps, Tipo de Fuente Times y Tamaño Large </p>
+                </article>
+
+            <section>
+                <h2>Text-Transform - Transformación de Texto</h2>
+            </section>
+                <article>
+                    <h3>Combine con los estilos ya creados</h3>
+                    <p class="transf-normal verdana italic"> Texto con transformación Normal, Tipo de Fuente Verdana,  Tamaño large y estilo italic </p>
+                    <p class="transf-capit verdana italic grande "> texto con transformación capitalize, tipo de fuente verdana, tamaño large y estilo italic </p>
+                    <p class="transf-lower verdana grande italic">TEXTO CON TRANSFORMACIÓN LOWER, TIPO DE FUENTE VERDANA, TAMAÑO LARGE Y ESTILO ITALIC  </p>
+                    <p class="transf-upper verdana grande italic"> texto con transformación upper, tipo de fuente verdana,  tamaño large y estilo italic </p>
+                </article>
+
+            <section>
+                <h2>Text-Indent - Identación de Texto</h2>
+            </section>
+                <article>
+                    <h3>Combine con los estilos ya creados</h3>
+
+                    <p class="indent75 grosor-300 roboto ymedio"> Este es un texto en el que aplicaremos la propiedad text-indent que sirve para aplicar un espacio al principio de la primera linea de este párrafo. Notaras que la primera linea de este texto se encuentra a una distancia de 75px desde el borde y ello se debe a que el valor de esta propiedad es de 75px. El grosor de la fuente es de 300, la fuente utilizada es Roboto, su tamaño de 1 y medio del contenedor  </p>
+
+                    <p class="indent3 grosor-300 roboto ymedio"> Este es un texto en el que aplicaremos la propiedad text-indent que sirve para aplicar un espacio al principio de la primera linea de este párrafo. Notaras que la primera linea de este texto se encuentra a una distancia de 4em desde el borde y ello se debe a que el valor de esta propiedad es de 4em. El grosor de la fuente es de 300, la fuente utilizada es Roboto, su tamaño es 1 y medio del contenedor  </p>
+                </article>        
+            
+            <section>
+                <h2>Text-Align - Alineación de Texto</h2>
+            </section>
+                <article>
+                    <h3>Combine con los estilos ya creados</h3>
+
+                    <p class="t-left vtr JosefinSlab grosor-300"> Este es un parrafo alineado a la izquierda, mediante la propiedad y text-align de CSS. El tamaño de la fuente es de 24px, la fuente utilizada es josefine slab, su grosor es de 300 </p>
+    
+                    <p class="t-right vtr JosefinSlab grosor-300"> Este párrafo será alineado a la derecha y lo verás claramente por que es muy diferente al anterior. El tamaño de la fuente es de 24px, la fuente utilizada es josefine slab, su grosor es de 300</p>
+                    
+                    <p class="t-center vtr JosefinSlab grosor-300"> Texto alineado al centro con CSS</p>
+                    
+                    <p class="t-justify vtr JosefinSlab grosor-300 indent75"> Este hermoso texto será justificado con CSS, de tal manera que todas las lineas de este párrafo se encuentre con margenes iguales. En ocasiones es necesario o quizá para darle un toque estético cautivador, un estilo que necesita varias lineas de texto para poder ser apreciado en toda su plenitud; ahora que tenemos varias lienas de texto, podes deleitar tus ojos con este justificado de texto.  En este párrafo utilizamos un tamaño de fuente de 24px, la fuente utilizada es josefine slab, su grosor es de 300 y está identado a 75px. Obviamente queda muy bien aplicar justificado a los textos, esto hace que nuestra web se vea siempre profesional, no lo olvides</p>
+                </article>
+                
+            <section>
+                <h2>line height - altura de linea</h2>
+            </section>
+                <article>
+                    <h3>Combine con los estilos ya creados</h3>
+
+                    <p class="line-normal verdana "> Este párrafo no mostrará cambios en el espacio entre líneas porque estamos aplicando el valor normal para la propiedad lineheight y el tipo de letra es verdana. Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit    optio officiis qui. Aut corporis sed, veniam id provident voluptatum voluptatibus nesciunt quidem debitis eiciendis ipsam placeat hic, explicabo quas ad? Perspiciatis quia odit quae ex reprehenderit, nisi spernatur, illo ipsum sunt nobis, modi itaque cum odio harum inventore culpa excepturi. Alias ea eligendi unde repellendus, quibusdam sapiente esse saepe molestiae!
+                        
+                    <p class="line-px24 JosefinSlab">Este es un texto al que aplicaremos la propiedad line-height que sirve para aplicar espacios entre las líneas de este párrafo. En este caso el espaciado será de 24 px de separación entre una línea y la otra y el tipo de letra es josefine slab.  Se recomienda achicar la ventana del navegador por si es que no se puede apreciar este párrafo en varias líneas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, ut numquam! Iste ex, labore expedita assumenda natus est cupiditate, incidunt a, qui reiciendis aperiam ad sint. Cum unde praesentium sed.</p>
+
+                    <p class="line-percent JosefinSlab "> En este párrafo aplicaremos un tamaño relativo que mostrará un espacio entre líneas del 150% del tamaño de la fuente porque estamos aplicando un valor de 150% para la propiedad line-height, lo que significa que el tamaño de cada línea es un 50% superior al tamaño de la letra, el tipo de letra es josefine slab. Lorem ipsum dolor sit amet onsectetur adipisicing elit. Impedit optio officiis qui. Aut corporis sed, veniam id provident voluptatum   voluptatibus nesciunt quidem debitis reiciendis ipsam placeat hic, explicabo quas ad? Perspiciatis quia odit quae ex reprehenderit, nisi aspernatur, illo ipsum sunt nobis, modi itaque cum odio harum inventore culpa excepturi. Alias ea eligendi unde repellendus, quibusdam sapiente esse saepe molestiae</p>
+
+                    <p class="line-relative times">Para este último párrafo, el interlineado lo establecemos mediante un número sin unidades de medida, que se interpreta como el múltiplo del tamaño de letra del elemento, o sea 2.5 representa un valor 2 veces y medio el tamaño de la fuente y el tipo de letra es times new roman. Se recomienda utilizar esta última forma de establecer el interlineado porque es la más sencilla y la más flexible, ya que se adapta correctamente a cualquier cambio en el tamaño de letra del texto. Por otra parte, si un mismo párrafo se muestra con varios tipos o tamaños de letra diferentes, el navegador toma el tamaño de la letra más grande para calcular el valor de la propiedad line-height. Lorem ipsum dolor sit amet, consectetur adipisicing elit. In error numquam eaque, nemo minus sed pariatur dolor laborum, nostrum praesentium voluptates. Tempora eligendi dignissimos, quibusdam optio sunt aliquam. Pariatur, blanditiis?</p>
+                </article>
+
+            <section>
+                <h2>word-spacing - espaciado entre palabras</h2>
+            </section>
+                <article>
+                    <h3>Combine con los estilos ya creados</h3>
+
+                    <p class="wspacing-normal roboto grande t-center"> Texto con espaciado de palabras normal. Fuente Roboto, tamaño large, alineado al centro</p>
+        
+                    <p class="wspacing-posit roboto grande t-center"> texto con espaciado de palabras en 8px positivo.  Fuente Roboto, tamaño large, alineado al centro</p>
+                    
+                    <p class="wspacing-nega roboto grande t-center"> texto con espaciado de palabras negativo con -2px. Fuente Roboto, tamaño large, alineado al centro </p>
+                </article> 
+                
+            <section>
+                <h2>letter-spacing - espaciado entre letras</h2>
+            </section>
+                <article>
+                    <h3>Combine con los estilos ya creados</h3>
+
+                    <p class="lspacing-normal verdana grande t-center"> Texto con espaciado de letras normal. Fuente verdana, tamaño large, alineado al centro</p>
+        
+                    <p class="lspacing-posit roboto grande t-center"> texto con espaciado de letras en 8px positivo.  Fuente Roboto, tamaño large, alineado al centro</p>
+                    
+                    <p class="lspacing-nega JosefinSlab grande t-center"> texto con espaciado de letras negativo con -2px. Fuente josefine slab, tamaño large, alineado al centro </p>
+                </article>
+
+            <section>
+            <h2>text-decoration - decoracion de texto</h2>
+        </section>
+            <article>
+                <h3>Cree los siguientes estilos de subrayados <span style="font-weight: 400;">(<em>Ver video clase 13, hora 01:09:46</em>)</span> </h3>
+                
+
+                <p class="tdecor-none vtr">Este es un texto sin decoración, tamaño de fuente 24px</p>
+                <p class="overline peque">Texto con decoracion encima, tamaño de fuente small.</p>
+                <p class="over_under vtr">Texto con decoracion encima y abajo, tamaño de fuente 24px.</p>
+                <p class="through vtr">Texto con decoración al medio, tamaño de fuente 24px.</p>
+                <p class="underline vtr">Texto con decoración debajo y color red, tamaño de fuente 24px.</p>
+                <p class="underline-solid vtr">Texto con decoración debajo, estilo solid y color blueviolet, tamaño de fuente 24px.</p>
+                <p class="underline-dotted vtr">Texto con decoración debajo, estilo dotted y color orange, tamaño de fuente 24px.</p>
+                <p class="underline-double medium">Texto con decoración debajo, estilo double, tamaño de fuente medium.</p>
+                <p class="underline-dashed docho">Texto con decoración debajo, estilo dashed, tamaño de fuente 18px.</p>
+                <p class="underline-wavy docho">Texto con decoración debajo, estilo wavy, tamaño de fuente 18px.</p>
+                <p class="underline-red vtr">Texto con decoración debajo, estilo solid, color red, tamaño de fuente 24px.</p>
+                <p class="underline-blue mas-grande">Texto con decoración debajo, estilo dotted y  color blue, tamaño de fuente xxlarge.</p>
+                <p class="underline-orange grande">Texto con decoración debajo, estilo double, color orange, tamaño de fuente large.</p>
+                <p class="underline-green vtr">Texto con decoración debajo, estilo dashed y color green, tamaño de fuente 24px.</p>
+                <p class="underline-blueviolet vtr">Texto con decoración debajo, estilo wavy, color blueviolet, tamaño de fuente 24px.</p>
+            </article>
+            
+        <section>
+            <h2>text-shadow - sombra de texto</h2>
+        </section>
+            <article>
+                <h3>Cree los siguientes estilos de sombra <span style="font-weight: 400;">(<em>Ver video clase 13, hora 01</em>)</span></h3>
+
+                <!-- shadow1: despH: 4px, despV: 4px, difuminado: 5px, color: gray, fuente: "verdana", color de fuente: orange, tamaño: 24px, transform: capitalize -->
+                <p class="shadow1 vtr transf-capit verdana">titulo texto con sombra 1 </p>
+
+                <!-- shadow2: despH: 2px, despV: 2px, difuminado: 2px, color: black, fuente: "Josefin Slab", color de fuente: white, tamaño: 30px, grosor: 600,  transform: upercase -->
+                <p class="shadow2 JosefinSlab grosor-600 trei transf-upper">titulo texto con sombra 2</p>
+                
+                <!-- shadow3: despH: 5px, despV: 5px, difuminado: 2px, color: hotpink,  fuente: "fantasy", color de fuente: white, tamaño: 2em, grosor: 700,  transform: capitalize -->
+                <p class="shadow3 fantasy doble transf-capit ">titulo texto con sombra 3</p>
+            
+            </article>    
+
+    </main>
+                               
+    <footer>
+        <h2>Css para textos</h2>
+        <p>módulo: diseño web</p>
+    </footer>
+        
+</body>
+</html>

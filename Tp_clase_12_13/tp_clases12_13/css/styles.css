@@ -1,0 +1,331 @@
+/* ******************************************************************************************************
+    Aquí, todos los estilos necesarios para realizar el ejercicio. Buena Suerte con eso, y a divertirse!!
+*********************************************************************************************************/
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Russo+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lilita+One&family=Russo+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lilita+One&family=Roboto:ital,wght@0,100..900;1,100..900&family=Russo+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Lilita+One&family=Roboto:ital,wght@0,100..900;1,100..900&family=Russo+One&display=swap');
+
+body {
+    font-size: 14px;
+    margin: 0px;
+    color: #3f3f3f;
+}
+
+h1, h2 {
+    margin: 0px;
+}
+
+header, footer {
+    font-family: "Russo One";
+    font-size: 1.5em;
+    background: #e72727;
+    Color:  #ffffff;
+    padding: 25px;
+    text-align: center;
+}
+
+main { 
+    padding : 20px;
+}
+
+section {
+    background: #e72727;
+    Color : #ffc7c7;
+    font-family: "Lilita One", sans-serif;
+    font-size: 1.2em;
+    padding:15px;
+}
+
+article {
+    background: #ffffff;
+    padding:10px;
+    margin-bottom: 10px; 
+    font-size: 1.2em;
+    padding:15px;
+}
+
+
+/*Fuentes*/
+.cursiv {
+    font-family: cursive;
+}
+
+.verdana {
+    font-family: Verdana ;
+}
+.roboto {
+    font-family: Roboto;
+}
+.fant {
+    font-family: fantasy ;
+}
+.times {
+    font-family: 'Times New Roman';
+    
+}
+.monos {
+    font-family: monospace;
+}
+.JosefinSlab {
+    font-family:"Josefin Slab" ;
+    
+}
+
+/*tamaños*/
+
+.peque {
+    font-size:small;
+}
+
+.medium {
+    font-size: medium;
+}
+
+.grande {
+    font-size:large;
+}
+
+.mas-grande {
+    font-size:xx-large;
+}
+
+.och {
+    font-size: 8px;
+}
+
+.diz {
+    font-size: 10px;
+}
+
+.docho {
+    font-size: 18px;
+}
+
+.vtr {
+    font-size:24px;
+}
+
+.trei {
+    font-size: 30px;
+}
+
+.mitad {
+    font-size: 0.5em;
+}
+
+.uno {
+    font-size: 1em;
+}
+
+.ymedio {
+    font-size: 1.5em;
+}
+.doble {
+    font-size:2em;
+}
+
+.triple {
+    font-size: 3em;
+}
+
+/*Combinados y grosor*/
+
+.grosor-100 {
+    
+    font-weight: 100;
+}
+
+.grosor-300 {
+    font-weight:300;
+}
+
+.grosor-600 {
+    font-weight: 600;
+}
+
+.grosor-800 {
+    font-weight: 800 ;
+}
+
+
+/*Italica*/
+.italic {
+    font-style: italic;
+}
+
+/*Variantes*/
+
+.var-normal {
+    font-variant: normal;
+}
+
+.var-smallcaps {
+    font-variant: small-caps;
+}
+
+/*trasformaciones*/
+
+.transf-normal {
+    text-transform: none;
+}
+
+.transf-capit {
+    text-transform: capitalize;
+}
+
+.transf-lower{
+    text-transform: lowercase;
+}
+
+.transf-upper{
+    text-transform: uppercase;
+}
+
+
+/*identacion de texto*/
+.indent75 {
+    text-indent: 75px;
+}
+
+.indent3 {
+    text-indent: 4em;
+}
+
+/*alineacion de texto*/
+.t-left {
+    text-align: left;
+}
+
+.t-right {
+    text-align: right;
+}
+
+.t-center {
+    text-align: center;
+}
+
+.t-justify {
+    text-align: justify;
+}
+
+/*altura de linea*/
+.line-normal {
+    line-height: normal;
+}
+
+.line-px24 {
+    line-height: 24px;
+}
+
+.line-percent {
+    line-height: 150%;
+}
+
+.line-relative {
+    line-height: 2.5;
+}
+
+/*espaciodos entre palabras*/
+.wspacing-normal {
+    word-spacing: normal;
+}
+
+.wspacing-posit {
+    word-spacing: 8px;
+}
+
+.wspacing-nega {
+    word-spacing: -2px;    
+}
+
+/*espacios entre letras*/
+.lspacing-normal {
+    letter-spacing: normal;
+}
+
+.lspacing-posit {
+    letter-spacing: 8px;
+}
+
+.lspacing-nega{
+    letter-spacing: -2px;
+}
+
+/* text-decoration - decoracion de texto */
+.tdecor-none {
+    text-decoration: none;
+}
+
+.overline {
+    text-decoration: overline;
+}
+
+.over_under {
+    text-decoration:overline underline;
+}
+
+.through {
+    text-decoration: line-through;
+}
+
+.underline {
+    text-decoration: underline red;
+}
+
+.underline-solid {
+    text-decoration:underline solid blueviolet;
+}
+
+.underline-dotted {
+    text-decoration:underline dotted orange;
+}
+
+.underline-double {
+    text-decoration:underline double orange;
+}
+
+.underline-dashed {
+    text-decoration: underline dashed;
+}
+
+.underline-wavy {
+    text-decoration: underline wavy;
+}
+
+.underline-red {
+    text-decoration: underline solid red;
+}
+
+.underline-blue {
+    text-decoration: underline dotted blue;
+}
+
+.underline-orange {
+    text-decoration: underline double orange;
+}
+
+.underline-green {
+    text-decoration: underline dashed green;
+}
+
+.underline-blueviolet {
+    text-decoration: underline wavy blueviolet;
+}
+
+/* Sombras */
+.shadow1 {
+    box-shadow: 4px 4px 5px gray ;
+}
+
+.shadow2 {
+    box-shadow: 2px 2px 2px black;
+}
+
+.shadow3 {
+    box-shadow: 5px 5px 2px hotpink;
+    font-weight: 700;
+}
